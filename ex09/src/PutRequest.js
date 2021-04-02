@@ -2,9 +2,9 @@ import React from 'react';
 import axios from 'axios';
 
 class PutRequest extends React.Component {
-constructor(props) {
-    super(props);
-    this.state = { postId: null };
+    constructor(props) {
+        super(props);
+        this.state = { postId: null };
     }
     componentDidMount() {
         axios.put('https://jsonplaceholder.typicode.com/posts/1', { title: 'React PUT Example' })
