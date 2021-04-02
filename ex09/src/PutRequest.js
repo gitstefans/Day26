@@ -22,4 +22,4 @@ class PutRequest extends React.Component {
     }
 }
      
-    export default PutRequest;
+export default PutRequest;
